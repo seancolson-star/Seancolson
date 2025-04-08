@@ -1,0 +1,222 @@
+body {
+	background-color: #666666;
+	background-image:  url("../images/templates/body_bg.html");
+	background-repeat: repeat-x;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#header_bar {
+	font-size: 9px;
+	color: #FFFFFF;
+	background-image:  url("../images/templates/header_bar_bg.html");
+	background-repeat: repeat-x;
+	padding-top: 1px;
+	padding-right: 4px;
+	padding-bottom: 1px;
+	padding-left: 4px;
+	/*border-bottom-color: #FFFFFF;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;*/
+	text-align: right;
+}
+#maintable {
+
+}
+#maincontainer {
+	border: 1px solid #FFFFFF;
+	background-color: #FFFFFF;
+	background-repeat: repeat-y;
+	width: 750px;
+}
+#navbg {
+       position:relative;
+       top: 20px;
+       width: 122px;
+}
+.subnav {
+	height: 100%;
+	text-align: left;
+	background-image: url("../images/templates/subnav_bg.html");
+        background-repeat: no-repeat;
+}
+
+#mainspace {
+	padding: 5px;
+}
+
+
+#main_content {
+	color: #333333;
+	padding: 5px;
+}
+
+
+#mainpic {
+
+	/*border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #666666;*/
+}
+
+#focusspace {
+	font-size: 12px;
+	color: #333333;
+}
+
+#focusspace1 {/* focus boxes on right */
+	padding: 5px;
+	border-left-color: #999999;
+	border-left-style: dashed;
+	border-left-width: 1px;
+}
+
+#focusspace2 {/* focus boxes on top */
+	padding: 5px;
+	border-bottom-color: #999999;
+	border-bottom-style: dashed;
+	border-bottom-width: 1px;
+}
+
+#focusspace3 {/* focus boxes on bottom */
+	padding: 5px;
+	border-top-color: #999999;
+	border-top-style: dashed;
+	border-top-width: 1px;
+}
+
+#focusspace h5 {
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #e7cfad;
+	padding-left: 8px;
+	border: 1px solid #333333;
+	margin-bottom: 3px;
+	margin-top: -5px;
+	width: 180px;
+	text-align: left;
+	background-repeat: repeat-x;
+}
+#focus_content {
+	font-size: 10px;
+	color: #333333;
+	padding: 2px;
+        background-color: #FFFFFF;
+	border: 1px solid #333333;
+	margin-bottom: 20px;
+	height: 200px;
+	overflow: auto;
+	width: 180px;
+	text-align: left;
+}
+#focusfeature_content {
+	font-size: 10px;
+	color: #333333;
+	padding: 2px;
+	border: 1px solid #333333;
+	margin-bottom: 20px;
+	height: 70px;
+	overflow: auto;
+	width: 180px;
+	text-align: left;
+}
+#focusspace img{
+	border-top-color: #333333;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-right-color: #333333;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-bottom-color: #333333;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-left-color: #333333;
+	border-left-style: solid;
+	border-left-width: 1px;
+	margin-bottom: 3px;
+}
+#footer_bar {
+	padding: 2px;
+	height: 28px;
+	background-color: #77A09B;
+	BORDER-TOP: #FFFFFF 1px solid;
+	background-image: url("../images/templates/footer_bar_bg.html");
+        background-repeat: repeat-x;
+	
+	
+
+}
+
+/*********** #navBar link styles ***********/
+
+#sub UL {
+	margin: 0px;
+	padding: 0px;
+}
+
+#sub li{
+	margin: 0px;
+	padding: 0px;
+	LIST-STYLE-TYPE: none;
+}
+
+.closed ul {
+ 	display:none;
+}
+
+.open ul {
+ 	display:block;
+}
+
+.closed a, .open a {
+	/*border-style: solid;
+	border-color: #CCCCCC;
+	border-width: 1px;
+	background-color: #CCCCCC;*/
+	padding: 2px 0px 2px 5px;
+	color: #f1470e;
+	display: block; 
+	background-color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	BORDER-TOP: #FFFFFF 1px dotted;
+	BORDER-BOTTOM: #b38d0f 1px dotted;
+	BORDER-LEFT: #FFFFFF 3px solid;
+}
+
+.closed a:hover, .open a:hover {
+	color: #f26f0d;
+	BORDER-TOP: #FFFFFF 1px dotted;
+	BORDER-BOTTOM: #b38d0f 1px dotted;
+	BORDER-LEFT: #f26f0d 3px solid;
+	background-color: #FFFFFF;
+	font-weight: bold;
+}
+
+.closed a {
+	
+}
+
+.open a {
+	
+}
+
+.closed ul a, .open ul a, .open ul a:hover {
+	color: #333333;
+	BORDER-TOP: #FFFFFF 1px dotted;
+	BORDER-BOTTOM: #222222 1px dotted;
+	BORDER-LEFT: #FFFFFF 3px solid;
+	padding-left: 20px;
+	background-color: #FFFFFF;
+	font-weight: normal;
+}
+
+.open ul a:hover {
+	color: #666666;
+	BORDER-TOP: #FFFFFF 1px dotted;
+	BORDER-BOTTOM: #222222 1px dotted;
+	BORDER-LEFT: #666666 3px solid;
+	padding-left: 20px;
+	background-color: #FFFFFF;
+	font-weight: normal;
+}

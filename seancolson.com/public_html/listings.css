@@ -1,0 +1,103 @@
+/* new CSS styles for content list tables and top previous next areas */
+#listing_content {
+	color: #333333;
+	padding: 0px;
+	margin-bottom: 10px;
+	width: 95%;
+	text-align: left;
+	border: 2px solid #333333;
+	BORDER-TOP: 5px solid #666666;
+}
+#listing_table table {
+        color: #333333;
+        border-color: #666666;
+        border-style: dotted;
+        border-width: 1px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+
+}
+#listing_table table A {
+        color: #333333;
+}
+#listing_table table A:hover {
+        color: #999999;
+}
+.listing_header1 {
+
+        background-color:#FFFFFF;
+        padding: 5px;
+        border-color: #666666;
+        border-style: dotted none dotted none;
+        border-width: 1px;
+        margin-bottom: 5px;
+
+}
+.listing_header2 {
+        background-color:#FFFFFF;
+        padding: 5px;
+        border: 1px dotted #666666;
+        margin-bottom: 5px;
+
+}
+.listing_header3 {
+        background-color:#FFFFFF;
+        padding: 5px;
+        border: 1px dotted #666666;
+        margin-bottom: 5px;
+
+}
+.listing_header_row {
+        background-image:  url("../images/row_bground.html");
+        background-repeat: repeat;
+}
+
+#listspace1 {
+        background-color:#FFFFFF;
+        padding: 1px;
+        border: 1px dotted #666666;
+        margin-bottom: 5px;
+}
+#listspace2 {
+        background-color:#FFFFFF;
+        padding: 1px;
+        border: 1px dotted #666666;
+        margin-bottom: 5px;
+}
+#listspace3 {
+        background-color:#FFFFFF;
+        padding: 1px;
+        border: 1px dotted #666666;
+        margin-bottom: 5px;
+}
+.focustable1{
+}
+.focustable2{
+}
+.focustable3{
+}
+.focustable4{
+        font-weight: bold;
+}
+.contact_info {
+	background-color: #EEEEEE;
+	font-size: 10px;
+	font-weight: bold;
+	color: #333333;
+	padding: 2px;
+	margin-bottom: 20px;
+	text-align: left;
+}
+.selectedimg{
+  border-color: #000000;
+  border-style: solid;
+  border-width: 2px;
+}
+.disclaimer{
+  color: #000000;
+  font-size: 10px;
+  font-style: italic;
+  text-align: justify;
+}
+/* end of new CSS styles for content list tables and top previous next areas */
+
